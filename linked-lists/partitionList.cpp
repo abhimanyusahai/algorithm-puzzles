@@ -76,7 +76,7 @@ public:
     }
 };
 
-void sumLists(UnorderedList& list, int threshold)
+void partition(UnorderedList& list, int threshold)
 {
     Node *previous = list.getFirst();
     Node *current = list.getFirst()->getNext();
